@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "description": "hello world test app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.x",
+    "mongoose": "latest",
+    "moment": "latest",
+    "socket.io": "latest",
+    "redis": "latest",
+    "bower": "latest",
+    "jade": "latest",
+    "passport": "latest"
+  }
+}

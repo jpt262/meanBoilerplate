@@ -1,0 +1,30 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "main": "path/to/main.css",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "bootstrap": "latest",
+    "d3": "latest",
+    "jquery": "latest",
+    "fontawesome": "latest",
+    "moment": "latest",
+    "underscore": "latest",
+    "leaflet": "latest",
+    "flat-ui": "latest",
+    "video.js": "latest",
+    "ngstorage": "latest",
+    "angular-ui": "latest",
+    "ng-table": "latest",
+    "angular-ui-router":"latest",
+    "spin.js":"latest",
+    "requirejs": "latest",
+    "get-size": "latest",
+    "hammerjs": "latest",
+    "masonry": "latest"
+  }
+}
