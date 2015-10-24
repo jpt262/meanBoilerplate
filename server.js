@@ -4,10 +4,12 @@ var app = express();
 app.engine('jade', require('jade').__express);
 app.use(express.static(__dirname + '/public'));
 
-app.get('/hello.txt', function(req, res){
-  res.send('Hello World');
+app.get('/:partial.html', function (req, res) {
+    'use strict';
+    res.render(req.params.partial);
 });
 
-var server = app.listen(3000, function() {
+var server = app.listen(3000, function () {
+    'use strict';
     console.log('Listening on port %d', server.address().port);
 });
