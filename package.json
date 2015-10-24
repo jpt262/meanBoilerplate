@@ -3,6 +3,9 @@
   "description": "hello world test app",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "start": "grunt serve"
+  },
   "dependencies": {
     "express": "4.x",
     "mongoose": "latest",
@@ -12,5 +15,11 @@
     "bower": "latest",
     "jade": "latest",
     "passport": "latest"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-nodemon": "^0.4.0",
+    "load-grunt-tasks": "^3.3.0"
   }
 }
